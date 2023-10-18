@@ -2,15 +2,16 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-body{
-    background-color: #5F2C82;
-}
 
-label{
+body, html{
     background-color: #5F2C82;
-    width: 90%;
+    width: 100vw;
+    height: 100vh;
 }
 
 #chave {
@@ -18,27 +19,42 @@ label{
     height: 25px;
     background-color: #5F2C82;
     display: inline-block;
+    margin: 0px;
 }
 
 #login{
     width: 25px;
     height: 25px;
     background-color: #5F2C82;
-    display: inline-block;
+    margin-top: 5px;
 }
+
 
 main{
-    margin: auto;
-    text-align: center ;
-    width: 250px;
-    background-color: white;
-    border-radius: 20px;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
-#predio{
+#cadastro{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.456);
+    width: 250px;
+    height: 500px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#imagem{
+    background-image: url(imagens/predio.jpg);
     width: 250px;
     height: 200px;
     border-radius: 20px 20px 0px 0px;
+    background-size: cover;
 }
 
 h1{
@@ -46,13 +62,14 @@ h1{
     margin: 10px;
     font-size: 22px;
     font-weight: bolder;
+    text-align: center;
 }
 
 p{
     text-align: left;
     font-size: 13px;
     margin: 0px;
-    padding: 0px 0px 0px 10px;
+    padding: 0px;
     font-weight: lighter;
 }
 
@@ -62,6 +79,7 @@ p{
     margin-top: 5px;
     padding: 8px;
     border-radius: 5px;
+    display: inline-block;
 }
 
 #isenha{
@@ -69,9 +87,17 @@ p{
     border: none;
     padding: 8px;
     border-radius: 5px;
+    display: inline-block;
 }
 
+#ilogin:checked{
+    background-color: white;
 
+}
+
+div#formulario{
+    padding: 10px;
+}
 
 
 

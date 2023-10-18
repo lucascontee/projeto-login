@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css">
 </head>
 <body>
 
     <main>
 
-        <section>
-           
-
+        <section id="cadastro">
             <div id="imagem">
-                <img src="imagens/predio.jpg" alt="predio" id="predio">
+
             </div>
 
-            <div>
+            <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                
+
                 <form action="cadastro.php" method="post" autocomplete="on"></form>
-                    <label for="ilogin" id="i1"><img src="imagens/pessoa.png" alt="login" id="login"></label>
+                    <img src="imagens/pessoa.png" alt="login" id="login">
                     <input type="email" name="login" id="ilogin" required autocomplete="email" placeholder="seu e-mail">
                     <br>
                 
-                    <label for="isenha" id="i2"><img src="imagens/chave.png" alt="chave" id="chave"></label>
+                    <img src="imagens/chave.png" alt="chave" id="chave">
                     <input type="password" name="senha" id="isenha" required autocomplete="new-password" placeholder="sua senha">
                     <br>
                     <input type="submit" value="Entrar" id="entrar"> <br>
