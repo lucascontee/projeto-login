@@ -8,6 +8,25 @@ body{
     background-color: #5F2C82;
 }
 
+label{
+    background-color: #5F2C82;
+    width: 90%;
+}
+
+#chave {
+    width: 25px;
+    height: 25px;
+    background-color: #5F2C82;
+    display: inline-block;
+}
+
+#login{
+    width: 25px;
+    height: 25px;
+    background-color: #5F2C82;
+    display: inline-block;
+}
+
 main{
     margin: auto;
     text-align: center ;
@@ -31,37 +50,28 @@ h1{
 
 p{
     text-align: left;
-    font-size: 14px;
+    font-size: 13px;
     margin: 0px;
     padding: 0px 0px 0px 10px;
+    font-weight: lighter;
 }
 
 #ilogin{
     background-color: #94CFCD;
     border: none;
-    margin: 5px;
+    margin-top: 5px;
     padding: 8px;
+    border-radius: 5px;
 }
 
 #isenha{
     background-color: #94CFCD;
     border: none;
-
     padding: 8px;
+    border-radius: 5px;
 }
 
-#i1{
-    background-color: #5F2C82;
 
-
-}
-
-#i2{
-    background-color: #5F2C82;
-
-
-
-}
 
 
 

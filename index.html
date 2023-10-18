@@ -10,24 +10,31 @@
 
     <main>
 
-        <form action="cadastro.php" method="post" autocomplete="on"></form>
-        <img src="imagens/predio.jpg" alt="predio" id="predio">
-        <h1>Login</h1>
-        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <section>
+           
 
-            <label for="ilogin" id="i1">Login</label>
-            <input type="email" name="login" id="ilogin" required autocomplete="email">
-            <br>
+            <div id="imagem">
+                <img src="imagens/predio.jpg" alt="predio" id="predio">
+            </div>
+
+            <div>
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                
+                <form action="cadastro.php" method="post" autocomplete="on"></form>
+                    <label for="ilogin" id="i1"><img src="imagens/pessoa.png" alt="login" id="login"></label>
+                    <input type="email" name="login" id="ilogin" required autocomplete="email" placeholder="seu e-mail">
+                    <br>
+                
+                    <label for="isenha" id="i2"><img src="imagens/chave.png" alt="chave" id="chave"></label>
+                    <input type="password" name="senha" id="isenha" required autocomplete="new-password" placeholder="sua senha">
+                    <br>
+                    <input type="submit" value="Entrar" id="entrar"> <br>
+                    <input type="submit" id="esqueci" value="Esqueci a senha &#x2709 &#xFE0F">
+                </form>
+            </div>
             
-
-            <label for="isenha" id="i2">Senha</label>
-            <input type="password" name="senha" id="isenha" required autocomplete="new-password">
-            <br>
-
-            <input type="submit" value="Entrar" id="entrar"> <br>
-            <input type="submit" id="esqueci" value="Esqueci a senha &#x2709 &#xFE0F">
-        </form>
-        
+        </section>
     </main>
     
 </body>
