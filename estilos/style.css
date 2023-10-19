@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/*
+Paleta de cores
+Verde: #49a09d
+Lilás: #5f2c82
+*/
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #5f2c82;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 0.8em;
+    margin: 0px 0px 5px 5px;
+}
+
+
+section div#imagem{
+    background-image: url(../imagens/predio.jpg);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+section#login{
+    background-color: white;
+    width: 250px;
+    height: 510px;
+    border-radius: 20px;
+    outline: hidden;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+div.campo{
+    color: white;
+    width: 90%;
+    background-color: #5f2c82;
+    border-radius: 8px;
+    height: 40px;
+    margin: 0px 10px 5px 12px;
+}
+
+div.campo >input:focus-within{
+    background-color: white;
+}
+
+div.campo > span{
+    width: 40px;
+    padding: 8px;
+}
+
+div.campo > input{
+    background-color: #75fffac4;
+    border: none;
+    width: calc(100% - 75px);
+    border-radius: 8px;
+    font-size: 1em;
+    padding: 4px;
+    transform: translateY(-6px);
+}
+
+label{
+    display: none;
+}
+
+
+#entrar{
+    background-color: #449693;
+    border: none;
+    border-radius: 8px;
+    width: 90%;
+    height: 40px;
+    margin: 0px 10px 5px 10px;
+    color: white;
+    font-size: 1.1em;
+    margin-left: 12px;
+
+}
+
+#entrar:hover{
+    background-color: #2a5c5a;
+    cursor: pointer;
+}
+
+
+#botao{
+    display: block;
+    background-color: white;
+    color: #3b817f;
+    border: 1px solid #49a09d;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 90%;
+    margin: 0px 10px 5px 12px;
+    height: 40px;
+    text-align: center;
+
+}
+
+#botao:hover{
+    background-color: #5fd1cd;
+}
+
+#mail{
+    transform: translateY(6px);
+}
+
+
+
+
